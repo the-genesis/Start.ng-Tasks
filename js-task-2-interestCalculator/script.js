@@ -35,8 +35,8 @@ function interestCalculator (array) {
 
 		//populate interestData object array with results of interest calculaltion
 		interestData[i].principal = array[i].principal;
-		interestData[i].time = array[i].time;
 		interestData[i].rate = rate;
+		interestData[i].time = array[i].time;
 		interestData[i].interest = interest;
 	}
 
