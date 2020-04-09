@@ -8,7 +8,7 @@ var courses = ["UI/UX Design", "HTML", "CSS", "JavaScript"];
 var numbers = [];
 
 for(i=1; i <= 200; i++) {
-	if(courses.length%2 == 0 && i%2 == 0) {
+	if(courses.length%2 == 0 && i%2 == 0) { 
 		numbers.push(i);
 	}
 }
